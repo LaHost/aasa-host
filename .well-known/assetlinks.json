@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.inexlatam.panther",
+      "sha256_cert_fingerprints": [
+        "66:14:CC:1E:F2:4E:84:C6:09:6B:69:C4:5A:C2:86:85:10:92:F8:59:7E:A2:8F:C0:51:6B:68:61:C4:74:83:53"
+      ]
+    }
+  }
+]
