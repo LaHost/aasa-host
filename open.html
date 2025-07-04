@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
         const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-        const appUniversalLink = "https://app.inexlatampay.com/open";
 
         const iOSAppStoreURL = "https://apps.apple.com/us/app/panther/id6744923576";
         const androidPlayStoreURL = "https://play.google.com/store/apps/details?id=com.inexlatam.panther";
 
         function redirectToAppOrStore() {
 
-            window.location = appUniversalLink;
+            window.location = iOSAppStoreURL;
             setTimeout(() => {
                 if (/android/i.test(userAgent)) {
                     window.location = androidPlayStoreURL;
